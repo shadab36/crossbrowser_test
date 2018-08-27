@@ -29,6 +29,7 @@ public class Login_FirefoxBrowser {
 	public void navigate_website_url_test() {
 		try {
 		//	System.out.println("Firefox browser test Environment");
+			
 			//Setup on saucelab platform
 		String	platform = System.getenv("SELENIUM_PLATFORM");
 		String	browserName = System.getenv("SELENIUM_BROWSER");
@@ -44,6 +45,25 @@ public class Login_FirefoxBrowser {
 			caps.setCapability("version", browserVersion);
 			caps.setCapability("name", "My Desktop automation test-4");
 			dri = new RemoteWebDriver(new URL(URL), caps);
+			
+			
+			
+		String	platform1 = System.getenv("SELENIUM_PLATFORM");
+		String 	browserName2 = System.getenv("SELENIUM_BROWSER");
+			String browserVersion3 = System.getenv("SELENIUM_VERSION");
+			System.out.println("Platform from sauce labs == "+platform1);
+			System.out.println("browser name from sauce labs == "+browserName2);
+			System.out.println("browser Version from sauce labs == "+browserVersion3);
+			System.out.println("**********************hellotest****************");	
+			DesiredCapabilities caps1 = new DesiredCapabilities();
+			//caps.setCapability("browser", browserName);
+			caps1.setBrowserName(browserName2);
+			caps1.setCapability("platform", platform1);
+			caps1.setCapability("version", browserVersion3);
+			caps1.setCapability("name", "My Desktop automation test-12");
+			dri = new RemoteWebDriver(new URL(URL), caps);
+			
+			
 			
 			// local firefox browser
 //			System.setProperty("webdriver.gecko.driver", "F:\\Driver of All\\geckodriver.exe");

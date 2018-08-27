@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 features = {".","."},
  glue= {"TestRunner.loginSteps"},
 format = { "pretty", "html:target2" },
-tags = {"@Chrome12_Browser, @firefox_browser_test"})
+tags = {"@firefox_browser_test"})
 
 public class ChromeBrowserRunner {
 }

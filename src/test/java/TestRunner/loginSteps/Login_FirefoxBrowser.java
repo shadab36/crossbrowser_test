@@ -19,7 +19,7 @@ import cucumber.api.java.en.Then;
 public class Login_FirefoxBrowser {
 	public static WebDriver dri;
 	public static final String USERNAME = "AyushDam";
-	public static final String ACCESS_KEY = "8c2691f0-4935-492e-af52-7f6012424f3f";
+	public static final String ACCESS_KEY = "f5cae068-fd7e-46b2-92c5-3b639ef8a721";
 	public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 	public static String platform;
 	public static String browserName;
@@ -29,7 +29,6 @@ public class Login_FirefoxBrowser {
 	public void navigate_website_url_test() {
 		try {
 			System.out.println("Firefox browser test Environment");
-			
 			
 			//Setup on saucelab platform
 			platform = System.getenv("SELENIUM_PLATFORM");

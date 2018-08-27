@@ -21,19 +21,18 @@ public class Login_FirefoxBrowser {
 	public static final String USERNAME = "AyushDam";
 	public static final String ACCESS_KEY = "f5cae068-fd7e-46b2-92c5-3b639ef8a721";
 	public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
-	public static String platform;
-	public static String browserName;
-	public static String browserVersion;
+//	public static String platform;
+//	public static String browserName;
+//	public static String browserVersion;
 	
 	@Given("^navigates to integration-www-sandman.mobiusbookingengine.com$")
 	public void navigate_website_url_test() {
 		try {
-			System.out.println("Firefox browser test Environment");
-			
+		//	System.out.println("Firefox browser test Environment");
 			//Setup on saucelab platform
-			platform = System.getenv("SELENIUM_PLATFORM");
-			browserName = System.getenv("SELENIUM_BROWSER");
-			browserVersion = System.getenv("SELENIUM_VERSION");
+		String	platform = System.getenv("SELENIUM_PLATFORM");
+		String	browserName = System.getenv("SELENIUM_BROWSER");
+		String	browserVersion = System.getenv("SELENIUM_VERSION");
 			System.out.println("Platform from sauce labs == "+platform);
 			System.out.println("browser name from sauce labs == "+browserName);
 			System.out.println("browser Version from sauce labs == "+browserVersion);

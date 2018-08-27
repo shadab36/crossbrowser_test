@@ -109,7 +109,7 @@ formatter.match({
   "location": "Login_Chromebrowser.navigate_website_url()"
 });
 formatter.result({
-  "duration": 19333038666,
+  "duration": 43089527675,
   "status": "passed"
 });
 formatter.match({
@@ -122,7 +122,7 @@ formatter.match({
   "location": "Login_Chromebrowser.enter(String)"
 });
 formatter.result({
-  "duration": 220969628,
+  "duration": 150303312,
   "status": "passed"
 });
 formatter.match({
@@ -135,14 +135,14 @@ formatter.match({
   "location": "Login_Chromebrowser.enter_as(String)"
 });
 formatter.result({
-  "duration": 184975802,
+  "duration": 107906810,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_Chromebrowser.click_on_signin_button()"
 });
 formatter.result({
-  "duration": 2135451291,
+  "duration": 6765312131,
   "status": "passed"
 });
 formatter.uri("src/test/resources/Firefoxbrowser.feature");
@@ -276,14 +276,14 @@ formatter.match({
   "location": "Login_FirefoxBrowser.navigate_website_url_test()"
 });
 formatter.result({
-  "duration": 26149114422,
+  "duration": 26716802734,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_FirefoxBrowser.he_she_click_on_login_CTA()"
 });
 formatter.result({
-  "duration": 532791822,
+  "duration": 397437418,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "Login_FirefoxBrowser.he_she_provides_the_userEmail_as(String)"
 });
 formatter.result({
-  "duration": 147431308,
+  "duration": 122621497,
   "status": "passed"
 });
 formatter.match({
@@ -309,21 +309,22 @@ formatter.match({
   "location": "Login_FirefoxBrowser.he_she_pass_the_app(String)"
 });
 formatter.result({
-  "duration": 146803306,
+  "duration": 100267245,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_FirefoxBrowser.he_she_minimize_the_booking_banner()"
 });
 formatter.result({
-  "duration": 2522156696,
+  "duration": 2343022235,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_FirefoxBrowser.he_she_click_on_login()"
 });
 formatter.result({
-  "duration": 1307848411,
-  "status": "passed"
+  "duration": 516994911,
+  "error_message": "org.openqa.selenium.WebDriverException: Failed to decode response from marionette\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027AMW-G1\u0027, ip: \u0027172.23.52.33\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003dC:\\Users\\AL Moin Webtech\\AppData\\Local\\Temp\\rust_mozprofile.AyqzacrJG0Nj, rotatable\u003dfalse, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dfalse, platform\u003dANY, moz:accessibilityChecks\u003dfalse, moz:useNonSpecCompliantPointerOrigin\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d61.0.1, platformVersion\u003d10.0, moz:processID\u003d13676.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003dwindows_nt, moz:webdriverClick\u003dtrue}]\nSession ID: 7013a779-90b0-450b-8662-beb9522c8f0a\n*** Element info: {Using\u003dcss selector, value\u003d.init-button}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat TestRunner.loginSteps.Login_FirefoxBrowser.he_she_click_on_login(Login_FirefoxBrowser.java:71)\r\n\tat ✽.Then he/she click on login cta.(src/test/resources/Firefoxbrowser.feature:10)\r\n",
+  "status": "failed"
 });
 });
